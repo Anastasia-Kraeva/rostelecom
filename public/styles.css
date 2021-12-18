@@ -17,9 +17,13 @@ li {
 }
 
 .filterBox {
+    display: flex;
+    height: 20px;
+    width: 290px;
+    justify-content: space-between;
     margin-bottom: 24px;
 }
 
-.filterBox > button {
-    margin-left: 4px;
+.filterBox > * {
+    outline: none;
 }
